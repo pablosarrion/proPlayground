@@ -9,6 +9,8 @@ body {
 .main-header{
     background-color: #eac926;
     padding: 20px;
+    position: fixed;
+    top: 0;
 }
 
 .logo{
@@ -48,6 +50,35 @@ padding: 0;
     display: inline-block;
     padding: 5px 0;
     font-size: 17px;
+}
+
+.create-form{
+    padding: 20px 15px;
+    margin-top: 240px;
+}
+
+.control-formulario{
+    margin-bottom: 15px;
+}
+
+.control-formulario label{
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+.control{
+    width: 100%;
+    padding: 8px 0;
+    margin:1px;
+}
+.boton-formulario{
+background-color: #39b54a;
+border: none;
+color: #fff;
+font-size: 20px;
+padding: 5px 10px;
+border-radius: 5px;
 }
 
 @media (min-width: 768px){
@@ -93,11 +124,7 @@ padding: 0;
         margin: auto;
     }
     .main-header-top-bar{
-<<<<<<< HEAD
         align-items: center;   
-=======
-        align-items: center;
->>>>>>> 191ccebd2571440b5736fae33f3da0257ffcd0bc
     }
 
     .main-navbar{
