@@ -93,7 +93,11 @@ padding: 0;
         margin: auto;
     }
     .main-header-top-bar{
+<<<<<<< HEAD
         align-items: center;   
+=======
+        align-items: center;
+>>>>>>> 191ccebd2571440b5736fae33f3da0257ffcd0bc
     }
 
     .main-navbar{
